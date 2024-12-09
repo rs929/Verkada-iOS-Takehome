@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C3FEF0C2D07561900D7A9D5 /* VerkadaTakehomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FEF0B2D07561900D7A9D5 /* VerkadaTakehomeApp.swift */; };
+		2C3FEF0E2D07561900D7A9D5 /* PokemonGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FEF0D2D07561900D7A9D5 /* PokemonGalleryView.swift */; };
+		2C3FEF102D07561A00D7A9D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FEF0F2D07561A00D7A9D5 /* Assets.xcassets */; };
+		2C3FEF132D07561A00D7A9D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FEF122D07561A00D7A9D5 /* Preview Assets.xcassets */; };
+		2C3FEF1D2D07561A00D7A9D5 /* VerkadaTakehomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FEF1C2D07561A00D7A9D5 /* VerkadaTakehomeTests.swift */; };
+		2C3FEF272D07561A00D7A9D5 /* VerkadaTakehomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FEF262D07561A00D7A9D5 /* VerkadaTakehomeUITests.swift */; };
+		2C3FEF292D07561A00D7A9D5 /* VerkadaTakehomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FEF282D07561A00D7A9D5 /* VerkadaTakehomeUITestsLaunchTests.swift */; };
+		2C3FEF362D07564C00D7A9D5 /* PokemonGalleryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FEF352D07564C00D7A9D5 /* PokemonGalleryItemView.swift */; };
+		2C3FEF382D07566900D7A9D5 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FEF372D07566900D7A9D5 /* Pokemon.swift */; };
+		2C3FEF3A2D07568200D7A9D5 /* Pokedex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FEF392D07568200D7A9D5 /* Pokedex.swift */; };
+		2C3FEF3C2D0756A800D7A9D5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FEF3B2D0756A800D7A9D5 /* NetworkManager.swift */; };
+		2C3FEF3E2D0756CA00D7A9D5 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FEF3D2D0756CA00D7A9D5 /* Keys.swift */; };
+		2C3FEF402D0756E300D7A9D5 /* Keys.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FEF3F2D0756E300D7A9D5 /* Keys.xcconfig */; };
+		2C3FEF432D07572100D7A9D5 /* PokemonGalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FEF422D07572100D7A9D5 /* PokemonGalleryViewModel.swift */; };
+		2C3FEF452D0757D000D7A9D5 /* CachingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FEF442D0757D000D7A9D5 /* CachingImageView.swift */; };
+		2C3FEF472D0757D700D7A9D5 /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FEF462D0757D700D7A9D5 /* ImageCacheManager.swift */; };
+		2C3FEF492D07592300D7A9D5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FEF482D07592300D7A9D5 /* LoadingView.swift */; };
+		2C3FEF4B2D07596000D7A9D5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FEF4A2D07596000D7A9D5 /* Constants.swift */; };
+		2C3FEF522D076DC100D7A9D5 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FEF512D076DC100D7A9D5 /* Type.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C3FEF192D07561A00D7A9D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C3FEF002D07561900D7A9D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C3FEF072D07561900D7A9D5;
+			remoteInfo = VerkadaTakehome;
+		};
+		2C3FEF232D07561A00D7A9D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C3FEF002D07561900D7A9D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C3FEF072D07561900D7A9D5;
+			remoteInfo = VerkadaTakehome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C3FEF082D07561900D7A9D5 /* VerkadaTakehome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerkadaTakehome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3FEF0B2D07561900D7A9D5 /* VerkadaTakehomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerkadaTakehomeApp.swift; sourceTree = "<group>"; };
+		2C3FEF0D2D07561900D7A9D5 /* PokemonGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonGalleryView.swift; sourceTree = "<group>"; };
+		2C3FEF0F2D07561A00D7A9D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C3FEF122D07561A00D7A9D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C3FEF182D07561A00D7A9D5 /* VerkadaTakehomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerkadaTakehomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3FEF1C2D07561A00D7A9D5 /* VerkadaTakehomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerkadaTakehomeTests.swift; sourceTree = "<group>"; };
+		2C3FEF222D07561A00D7A9D5 /* VerkadaTakehomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerkadaTakehomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3FEF262D07561A00D7A9D5 /* VerkadaTakehomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerkadaTakehomeUITests.swift; sourceTree = "<group>"; };
+		2C3FEF282D07561A00D7A9D5 /* VerkadaTakehomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerkadaTakehomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2C3FEF352D07564C00D7A9D5 /* PokemonGalleryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonGalleryItemView.swift; sourceTree = "<group>"; };
+		2C3FEF372D07566900D7A9D5 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		2C3FEF392D07568200D7A9D5 /* Pokedex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokedex.swift; sourceTree = "<group>"; };
+		2C3FEF3B2D0756A800D7A9D5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2C3FEF3D2D0756CA00D7A9D5 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		2C3FEF3F2D0756E300D7A9D5 /* Keys.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Keys.xcconfig; sourceTree = "<group>"; };
+		2C3FEF412D07570300D7A9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2C3FEF422D07572100D7A9D5 /* PokemonGalleryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonGalleryViewModel.swift; sourceTree = "<group>"; };
+		2C3FEF442D0757D000D7A9D5 /* CachingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachingImageView.swift; sourceTree = "<group>"; };
+		2C3FEF462D0757D700D7A9D5 /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		2C3FEF482D07592300D7A9D5 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		2C3FEF4A2D07596000D7A9D5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2C3FEF512D076DC100D7A9D5 /* Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C3FEF052D07561900D7A9D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3FEF152D07561A00D7A9D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3FEF1F2D07561A00D7A9D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C3FEEFF2D07561900D7A9D5 = {
+			isa = PBXGroup;
+			children = (
+				2C3FEF3F2D0756E300D7A9D5 /* Keys.xcconfig */,
+				2C3FEF0A2D07561900D7A9D5 /* VerkadaTakehome */,
+				2C3FEF1B2D07561A00D7A9D5 /* VerkadaTakehomeTests */,
+				2C3FEF252D07561A00D7A9D5 /* VerkadaTakehomeUITests */,
+				2C3FEF092D07561900D7A9D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C3FEF092D07561900D7A9D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C3FEF082D07561900D7A9D5 /* VerkadaTakehome.app */,
+				2C3FEF182D07561A00D7A9D5 /* VerkadaTakehomeTests.xctest */,
+				2C3FEF222D07561A00D7A9D5 /* VerkadaTakehomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C3FEF0A2D07561900D7A9D5 /* VerkadaTakehome */ = {
+			isa = PBXGroup;
+			children = (
+				2C3FEF0B2D07561900D7A9D5 /* VerkadaTakehomeApp.swift */,
+				2C3FEF4C2D075B9C00D7A9D5 /* API */,
+				2C3FEF4D2D075BB000D7A9D5 /* Models */,
+				2C3FEF4F2D075BC700D7A9D5 /* Views */,
+				2C3FEF4E2D075BC100D7A9D5 /* ViewModels */,
+				2C3FEF502D075BE000D7A9D5 /* Supporting */,
+				2C3FEF412D07570300D7A9D5 /* Info.plist */,
+				2C3FEF0F2D07561A00D7A9D5 /* Assets.xcassets */,
+				2C3FEF112D07561A00D7A9D5 /* Preview Content */,
+			);
+			path = VerkadaTakehome;
+			sourceTree = "<group>";
+		};
+		2C3FEF112D07561A00D7A9D5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2C3FEF122D07561A00D7A9D5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C3FEF1B2D07561A00D7A9D5 /* VerkadaTakehomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C3FEF1C2D07561A00D7A9D5 /* VerkadaTakehomeTests.swift */,
+			);
+			path = VerkadaTakehomeTests;
+			sourceTree = "<group>";
+		};
+		2C3FEF252D07561A00D7A9D5 /* VerkadaTakehomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C3FEF262D07561A00D7A9D5 /* VerkadaTakehomeUITests.swift */,
+				2C3FEF282D07561A00D7A9D5 /* VerkadaTakehomeUITestsLaunchTests.swift */,
+			);
+			path = VerkadaTakehomeUITests;
+			sourceTree = "<group>";
+		};
+		2C3FEF4C2D075B9C00D7A9D5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				2C3FEF3B2D0756A800D7A9D5 /* NetworkManager.swift */,
+				2C3FEF462D0757D700D7A9D5 /* ImageCacheManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		2C3FEF4D2D075BB000D7A9D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C3FEF372D07566900D7A9D5 /* Pokemon.swift */,
+				2C3FEF392D07568200D7A9D5 /* Pokedex.swift */,
+				2C3FEF512D076DC100D7A9D5 /* Type.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C3FEF4E2D075BC100D7A9D5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2C3FEF422D07572100D7A9D5 /* PokemonGalleryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2C3FEF4F2D075BC700D7A9D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C3FEF0D2D07561900D7A9D5 /* PokemonGalleryView.swift */,
+				2C3FEF442D0757D000D7A9D5 /* CachingImageView.swift */,
+				2C3FEF352D07564C00D7A9D5 /* PokemonGalleryItemView.swift */,
+				2C3FEF482D07592300D7A9D5 /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C3FEF502D075BE000D7A9D5 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				2C3FEF3D2D0756CA00D7A9D5 /* Keys.swift */,
+				2C3FEF4A2D07596000D7A9D5 /* Constants.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C3FEF072D07561900D7A9D5 /* VerkadaTakehome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C3FEF2C2D07561A00D7A9D5 /* Build configuration list for PBXNativeTarget "VerkadaTakehome" */;
+			buildPhases = (
+				2C3FEF042D07561900D7A9D5 /* Sources */,
+				2C3FEF052D07561900D7A9D5 /* Frameworks */,
+				2C3FEF062D07561900D7A9D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerkadaTakehome;
+			productName = VerkadaTakehome;
+			productReference = 2C3FEF082D07561900D7A9D5 /* VerkadaTakehome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C3FEF172D07561A00D7A9D5 /* VerkadaTakehomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C3FEF2F2D07561A00D7A9D5 /* Build configuration list for PBXNativeTarget "VerkadaTakehomeTests" */;
+			buildPhases = (
+				2C3FEF142D07561A00D7A9D5 /* Sources */,
+				2C3FEF152D07561A00D7A9D5 /* Frameworks */,
+				2C3FEF162D07561A00D7A9D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C3FEF1A2D07561A00D7A9D5 /* PBXTargetDependency */,
+			);
+			name = VerkadaTakehomeTests;
+			productName = VerkadaTakehomeTests;
+			productReference = 2C3FEF182D07561A00D7A9D5 /* VerkadaTakehomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C3FEF212D07561A00D7A9D5 /* VerkadaTakehomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C3FEF322D07561A00D7A9D5 /* Build configuration list for PBXNativeTarget "VerkadaTakehomeUITests" */;
+			buildPhases = (
+				2C3FEF1E2D07561A00D7A9D5 /* Sources */,
+				2C3FEF1F2D07561A00D7A9D5 /* Frameworks */,
+				2C3FEF202D07561A00D7A9D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C3FEF242D07561A00D7A9D5 /* PBXTargetDependency */,
+			);
+			name = VerkadaTakehomeUITests;
+			productName = VerkadaTakehomeUITests;
+			productReference = 2C3FEF222D07561A00D7A9D5 /* VerkadaTakehomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C3FEF002D07561900D7A9D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2C3FEF072D07561900D7A9D5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					2C3FEF172D07561A00D7A9D5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2C3FEF072D07561900D7A9D5;
+					};
+					2C3FEF212D07561A00D7A9D5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2C3FEF072D07561900D7A9D5;
+					};
+				};
+			};
+			buildConfigurationList = 2C3FEF032D07561900D7A9D5 /* Build configuration list for PBXProject "VerkadaTakehome" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C3FEEFF2D07561900D7A9D5;
+			productRefGroup = 2C3FEF092D07561900D7A9D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C3FEF072D07561900D7A9D5 /* VerkadaTakehome */,
+				2C3FEF172D07561A00D7A9D5 /* VerkadaTakehomeTests */,
+				2C3FEF212D07561A00D7A9D5 /* VerkadaTakehomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C3FEF062D07561900D7A9D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3FEF132D07561A00D7A9D5 /* Preview Assets.xcassets in Resources */,
+				2C3FEF102D07561A00D7A9D5 /* Assets.xcassets in Resources */,
+				2C3FEF402D0756E300D7A9D5 /* Keys.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3FEF162D07561A00D7A9D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3FEF202D07561A00D7A9D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C3FEF042D07561900D7A9D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3FEF472D0757D700D7A9D5 /* ImageCacheManager.swift in Sources */,
+				2C3FEF432D07572100D7A9D5 /* PokemonGalleryViewModel.swift in Sources */,
+				2C3FEF3C2D0756A800D7A9D5 /* NetworkManager.swift in Sources */,
+				2C3FEF492D07592300D7A9D5 /* LoadingView.swift in Sources */,
+				2C3FEF0E2D07561900D7A9D5 /* PokemonGalleryView.swift in Sources */,
+				2C3FEF382D07566900D7A9D5 /* Pokemon.swift in Sources */,
+				2C3FEF452D0757D000D7A9D5 /* CachingImageView.swift in Sources */,
+				2C3FEF522D076DC100D7A9D5 /* Type.swift in Sources */,
+				2C3FEF3A2D07568200D7A9D5 /* Pokedex.swift in Sources */,
+				2C3FEF3E2D0756CA00D7A9D5 /* Keys.swift in Sources */,
+				2C3FEF0C2D07561900D7A9D5 /* VerkadaTakehomeApp.swift in Sources */,
+				2C3FEF362D07564C00D7A9D5 /* PokemonGalleryItemView.swift in Sources */,
+				2C3FEF4B2D07596000D7A9D5 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3FEF142D07561A00D7A9D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3FEF1D2D07561A00D7A9D5 /* VerkadaTakehomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3FEF1E2D07561A00D7A9D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3FEF272D07561A00D7A9D5 /* VerkadaTakehomeUITests.swift in Sources */,
+				2C3FEF292D07561A00D7A9D5 /* VerkadaTakehomeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C3FEF1A2D07561A00D7A9D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C3FEF072D07561900D7A9D5 /* VerkadaTakehome */;
+			targetProxy = 2C3FEF192D07561A00D7A9D5 /* PBXContainerItemProxy */;
+		};
+		2C3FEF242D07561A00D7A9D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C3FEF072D07561900D7A9D5 /* VerkadaTakehome */;
+			targetProxy = 2C3FEF232D07561A00D7A9D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C3FEF2A2D07561A00D7A9D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C3FEF2B2D07561A00D7A9D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C3FEF2D2D07561A00D7A9D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C3FEF3F2D0756E300D7A9D5 /* Keys.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VerkadaTakehome/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VerkadaTakehome/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruizhesun.VerkadaTakehome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C3FEF2E2D07561A00D7A9D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C3FEF3F2D0756E300D7A9D5 /* Keys.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VerkadaTakehome/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VerkadaTakehome/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruizhesun.VerkadaTakehome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C3FEF302D07561A00D7A9D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruizhesun.VerkadaTakehomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerkadaTakehome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VerkadaTakehome";
+			};
+			name = Debug;
+		};
+		2C3FEF312D07561A00D7A9D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruizhesun.VerkadaTakehomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerkadaTakehome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VerkadaTakehome";
+			};
+			name = Release;
+		};
+		2C3FEF332D07561A00D7A9D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruizhesun.VerkadaTakehomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VerkadaTakehome;
+			};
+			name = Debug;
+		};
+		2C3FEF342D07561A00D7A9D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruizhesun.VerkadaTakehomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VerkadaTakehome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C3FEF032D07561900D7A9D5 /* Build configuration list for PBXProject "VerkadaTakehome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3FEF2A2D07561A00D7A9D5 /* Debug */,
+				2C3FEF2B2D07561A00D7A9D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C3FEF2C2D07561A00D7A9D5 /* Build configuration list for PBXNativeTarget "VerkadaTakehome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3FEF2D2D07561A00D7A9D5 /* Debug */,
+				2C3FEF2E2D07561A00D7A9D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C3FEF2F2D07561A00D7A9D5 /* Build configuration list for PBXNativeTarget "VerkadaTakehomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3FEF302D07561A00D7A9D5 /* Debug */,
+				2C3FEF312D07561A00D7A9D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C3FEF322D07561A00D7A9D5 /* Build configuration list for PBXNativeTarget "VerkadaTakehomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3FEF332D07561A00D7A9D5 /* Debug */,
+				2C3FEF342D07561A00D7A9D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C3FEF002D07561900D7A9D5 /* Project object */;
+}

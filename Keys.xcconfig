@@ -1,0 +1,11 @@
+//
+//  Keys.xcconfig
+//  VerkadaTakehome
+//
+//  Created by Richie Sun on 12/9/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+SERVER_URL = https:/$()/pokeapi.co/api/v2/
