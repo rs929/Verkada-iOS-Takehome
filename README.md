@@ -18,5 +18,7 @@ When considering the pokemon types, the original plan was to utilize the API to 
 
 I also decided when implementing the networking to utilize a more scalable approach rather than hard coding each endpoint separately, I created a template get function that performs most of the logic needed to fetch the information from the API so that in case there are any structual changes to the API, then I can handle it in one place rather than changing it for each endpoint call. Furthermore, this significantly reduces code repetition since I have a centralized function that handles the URLSession request, the decoding as well as error and response handling
 
-
-
+## Timing
+- Milestone 1: ~40 minutes
+- Milestone 2: ~20 minutes
+- Milestone 3: ~ 20 minutes
