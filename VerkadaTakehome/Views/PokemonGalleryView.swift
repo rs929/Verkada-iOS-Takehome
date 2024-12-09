@@ -88,7 +88,7 @@ struct PokemonGalleryView: View {
                             .frame(width: 150, height: 150)
 
                         CachingImageView(url: viewModel.isShiny ? selectedPokemon.sprites.backShiny : selectedPokemon.sprites.backDefault)
-                            .frame(width: 150, height: 150)
+                            .frame(width: 100, height: 100)
 
                         Spacer()
                     }
